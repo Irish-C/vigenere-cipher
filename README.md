@@ -15,6 +15,7 @@ To run the program, you'll need to have Python 3 installed on your computer. You
 
 # Packages needed to install
 You'll also need to install the following modules:
+
 PyFiglet: pip install pyfiglet
 Colorama: pip install colorama
 
