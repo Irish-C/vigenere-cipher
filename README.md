@@ -3,6 +3,7 @@ This repository contains encryption tool. This tool uses vigenere cipher with us
 
 # How the code works
 It will accept a string as encrypted text and then the program will decrypt it using the following character substitute:
+
 **'a' = *, 'e' = & , 'i' = # , 'o' = + 'u' = !**
 
 See sample output:
@@ -17,6 +18,7 @@ To run the program, you'll need to have Python 3 installed on your computer. You
 You'll also need to install the following modules:
 
 PyFiglet: pip install pyfiglet
+
 Colorama: pip install colorama
 
 # Usage
