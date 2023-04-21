@@ -18,5 +18,11 @@ def decrypted_str(encrypted_str):
     return decrypted_str
 
 # ask user for encrypted texts
+encrypted_text = input("Enter your encrypted text: ".rjust(50)).lower()
+
 # decrypt the user input
+decrypted_text = decrypted_str(encrypted_text)
+
 # print result
+result = "Decrypted text: " + str(decrypted_text)
+print(result.center(100))
