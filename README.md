@@ -23,9 +23,9 @@ Key: KNIGHTS
 
 
 # Installation
-To run the program, you'll need to have Python 3 installed on your computer. You can download Python 3 from the official website.
+To run the program, you'll need to have [Python 3](https://www.python.org/downloads/) installed on your computer.
 
-**Note: I used VS Code to create and run the program.**
+**Note: I used [VS Code](https://code.visualstudio.com/download) to create and run the program.**
 
 # Packages needed to install
 You'll also need to install the following modules:
