@@ -1,6 +1,7 @@
 # import modules
 import pyfiglet
 from colorama import Fore, Style
+import time
 
 # title
 vigenere_title = "VIGENERE CIPHER"
@@ -34,5 +35,9 @@ def vigenere_cipher(plaintext, keyword):
 # ask user for plaintext and keyword
 message = input(Fore.GREEN + "\033[1mEnter your message:\033[0m ").upper().replace(" ", "")
 keyword = input(Fore.RED + "\033[1mEnter your key:\033[0m ").upper().replace(" ", "")
+
+# show loading message
+print(Fore.YELLOW + "\033[1m\nEncrypting...\033[0m " + Style.RESET_ALL)
+time.sleep(3)
 
 # print the encrypted message
