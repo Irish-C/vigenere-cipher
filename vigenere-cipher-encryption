@@ -1,0 +1,9 @@
+# import modules
+# title
+# make function that implements Vigenere cipher
+#   a dictionary to plot letters to integers
+#   convert keyword into a list of integers
+#   encrypt using Vigenere cipher
+
+# ask user for plaintext and keyword
+# print the encrypted message
