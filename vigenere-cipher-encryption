@@ -41,3 +41,8 @@ print(Fore.YELLOW + "\033[1m\nEncrypting...\033[0m " + Style.RESET_ALL)
 time.sleep(3)
 
 # print the encrypted message
+encrypted_text = vigenere_cipher(message, keyword)
+print("\033[1m\nCiphertext:\033[0m", Fore.MAGENTA + encrypted_text + Style.RESET_ALL, "\n")
+ascii_text = pyfiglet.figlet_format(encrypted_text, font="digital", width=300)
+encrypted_text2 = Fore.MAGENTA + ascii_text + Style.RESET_ALL
+print(encrypted_text2.rjust(50))
