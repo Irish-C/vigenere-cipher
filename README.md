@@ -3,7 +3,7 @@ This repository contains encryption tool. This tool uses vigenere cipher with us
 
 # How the code works
 It will accept a string as encrypted text and then the program will decrypt it using the following character substitute:
-**'a' = *, 'e' = & , 'i' = # , 'o' = + 'u' = !
+**'a' = *, 'e' = & , 'i' = # , 'o' = + 'u' = !**
 
 See sample output:
 Enter a string to decrypt: th& q!#ck br+wn f+x j!mps +v&r th& l*zy d+g. The Plain Text: the quick brown fox jumps over the lazy dog.
@@ -11,7 +11,7 @@ Enter a string to decrypt: th& q!#ck br+wn f+x j!mps +v&r th& l*zy d+g. The Plai
 # Installation
 To run the program, you'll need to have Python 3 installed on your computer. You can download Python 3 from the official website.
 
-**Note: I used VS Code to create and run the program. 
+**Note: I used VS Code to create and run the program.**
 
 You'll also need to install the following modules:
 
