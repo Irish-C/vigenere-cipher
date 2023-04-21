@@ -1,5 +1,12 @@
 # import modules
+import pyfiglet
+from colorama import Fore, Style
+
 # title
+vigenere_title = "VIGENERE CIPHER"
+title = pyfiglet.figlet_format(vigenere_title, font="slant", width=250)
+print(Fore.CYAN + title.rjust(50) + Style.RESET_ALL)
+
 # make function that implements Vigenere cipher
 #   a dictionary to plot letters to integers
 #   convert keyword into a list of integers
