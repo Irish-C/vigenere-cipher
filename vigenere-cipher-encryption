@@ -14,7 +14,7 @@ def vigenere_cipher(plaintext, keyword):
     for i in range(26):
         letter_val[chr(i + ord('A'))] = i
     letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-    
+
 #   convert keyword into a list of integers
     keyword_indexes = []
     for k in keyword:
@@ -32,4 +32,7 @@ def vigenere_cipher(plaintext, keyword):
     return encrypted_text
 
 # ask user for plaintext and keyword
+message = input(Fore.GREEN + "\033[1mEnter your message:\033[0m ").upper().replace(" ", "")
+keyword = input(Fore.RED + "\033[1mEnter your key:\033[0m ").upper().replace(" ", "")
+
 # print the encrypted message
